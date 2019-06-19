@@ -1,1 +1,45 @@
 /* Your CSS will go here */ 
+
+li {
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+#todo {
+    padding: .5em;
+    border-radius: .25em;
+    border: 2px solid #aaa;
+}
+
+.btn {
+    background-color: blue;
+    color: #eee;
+    padding: .5em 1em;
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+.delBtn {
+    font-size: .75em;
+    margin-left: .5em;
+    border: none;
+    color: #eee;
+    background-color: red;
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+.completeBtn {
+    font-size: .75em;
+    margin-left: .5em;
+    padding: 1px 5px 2px;
+    border: none;
+    color: #eee;
+    background-color: green;
+    border-radius: .25em;
+    cursor: pointer;
+}

@@ -1,13 +1,13 @@
 // Your jQuery Logic will go here
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $('form').on('submit', function(event) {
+    $('form').on('submit', function (event) {
         // Prevent the default behavior of a form submit
         event.preventDefault()
 
         // Prevent an empty todo item from being added
-        if($('#todo').val() === '') {
+        if ($('#todo').val() === '') {
             return
         }
 
@@ -34,3 +34,4 @@ $(document).ready(function() {
         // Reset the value of the form input to an empty string
         $('#todo').val('')
     })
+})
